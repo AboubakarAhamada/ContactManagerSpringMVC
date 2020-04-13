@@ -23,9 +23,9 @@ public class SpringMvcConfig {
 		
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-		dataSource.setUrl("jdbc:mysql://localhost:3306/db_example?serverTimezone=UTC");
+		dataSource.setUrl("jdbc:mysql://localhost:3306/database_name?serverTimezone=UTC");
 		dataSource.setUsername("root");
-		dataSource.setPassword("aboubakar");
+		dataSource.setPassword("yourpassword");
 		
 		return dataSource;
 	}
